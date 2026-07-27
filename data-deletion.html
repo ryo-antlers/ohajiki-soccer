@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>データ削除のリクエスト | おはじきサッカースタジアム</title>
+<style>
+  :root{ --bg:#ffffff; --fg:#1d1c1a; --mut:#5f5a54; --line:#e2ddd6; --acc:#3f6247; --card:#f7f5f1; }
+  @media (prefers-color-scheme:dark){
+    :root{ --bg:#161816; --fg:#e8e4dc; --mut:#a49e95; --line:#33372f; --acc:#82ae8c; --card:#1e211e; }
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:"Hiragino Kaku Gothic ProN","Hiragino Sans","Yu Gothic",YuGothic,"Noto Sans JP",system-ui,sans-serif;
+    line-height:1.85; font-size:16px; -webkit-text-size-adjust:100%;
+  }
+  .wrap{max-width:760px; margin:0 auto; padding:48px 20px 96px}
+  h1{font-size:26px; line-height:1.35; margin:0 0 8px; letter-spacing:-.01em}
+  .app{color:var(--mut); font-size:14px; margin:0 0 32px}
+  h2{font-size:18px; margin:40px 0 10px; padding-top:20px; border-top:1px solid var(--line); letter-spacing:-.01em}
+  h3{font-size:15.5px; margin:24px 0 6px; color:var(--acc)}
+  p,li{color:var(--fg)}
+  p{margin:0 0 14px}
+  ul{margin:0 0 14px; padding-left:1.3em}
+  li{margin-bottom:7px}
+  ol{margin:0 0 14px; padding-left:1.4em}
+  ol li{margin-bottom:7px}
+  .scroll{overflow-x:auto; margin:0 0 16px}
+  table{border-collapse:collapse; width:100%; font-size:15px; min-width:460px}
+  th,td{text-align:left; padding:10px 14px 10px 0; border-bottom:1px solid var(--line); vertical-align:top}
+  th{font-size:13px; color:var(--mut); font-weight:700; letter-spacing:.04em}
+  .note{background:var(--card); border:1px solid var(--line); border-radius:6px; padding:16px 18px; margin:0 0 16px}
+  .note p{margin:0}
+  .note p+p{margin-top:9px}
+  .note strong{color:var(--acc)}
+  footer{margin-top:48px; padding-top:20px; border-top:1px solid var(--line); color:var(--mut); font-size:14px}
+  a{color:var(--acc)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1>データ削除のリクエスト</h1>
+<p class="app">おはじきサッカースタジアム（運営者：Bamboo Inside）</p>
+
+<p>本ページは、スマートフォン向けゲーム「おはじきサッカースタジアム」（以下「本アプリ」）に保存された利用者データの削除方法を説明するものです。削除は、以下の 2 つの方法でリクエストできます。</p>
+
+<h2>方法1：アプリ内から自分で削除する</h2>
+<p>本アプリを起動し、次の操作を行ってください。端末内と PlayFab サーバー上のデータがすべて削除されます。</p>
+<ol>
+  <li>ホーム画面の <strong>設定</strong> を開く</li>
+  <li><strong>データを削除</strong> を選ぶ</li>
+  <li>確認画面で削除を実行する</li>
+</ol>
+<p>削除は即時に反映されます。削除したデータは元に戻せません。</p>
+
+<div class="note">
+  <p><strong>ご注意：アンインストールでは完全に削除されません。</strong></p>
+  <p>アプリを削除（アンインストール）すると端末内のデータは消えますが、PlayFab のサーバー上に保存されたデータは残ります。アンインストールの操作がサーバーへ通知されないためです。完全に削除するには、アンインストールの前に上記のアプリ内の操作を行ってください。</p>
+</div>
+
+<h2>方法2：メールで削除を依頼する</h2>
+<p>すでにアプリを削除された場合など、アプリ内での操作ができないときは、下記のメールアドレスまでご連絡ください。ご本人からのご依頼であることを確認のうえ、<strong>30 日以内</strong>にデータを削除します。</p>
+<p><a href="mailto:bambooinside.app@gmail.com">bambooinside.app@gmail.com</a></p>
+<p>お手数ですが、本文に「データ削除希望」である旨と、アプリ内で登録した監督名・チーム名をご記載ください（本人確認のため）。</p>
+
+<h2>削除されるデータ</h2>
+<p>上記のいずれの方法でも、本アプリが保存する以下のデータがすべて削除されます。一部だけを残すことはできません。</p>
+<ul>
+  <li>監督名・チーム名・クラブ略称・チームカラー・チームアイコン</li>
+  <li>所有選手、フォーメーション、試合成績、レート、コインなどのゲーム内データ</li>
+  <li>利用者を識別するための端末固有の識別子（PlayFab アカウント）</li>
+</ul>
+
+<h2>データの保持期間</h2>
+<p>取得したデータは、利用者による削除の操作、または削除のご依頼があるまで保存します。削除のご依頼を受けた場合は、本人確認のうえ 30 日以内に削除します。</p>
+
+<footer>
+  制定日：2026年7月1日<br>
+  運営者：Bamboo Inside<br>
+  お問い合わせ：<a href="mailto:bambooinside.app@gmail.com">bambooinside.app@gmail.com</a><br>
+  <a href="privacy.html">プライバシーポリシー</a> ／ <a href="terms.html">利用規約</a>
+</footer>
+
+</div>
+</body>
+</html>
